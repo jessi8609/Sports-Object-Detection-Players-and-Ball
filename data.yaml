@@ -1,0 +1,12 @@
+train: C:\Users\13\Desktop\ball\train\images
+val: C:\Users\13\Desktop\ball\valid\images
+
+nc: 1  # Klasslar soni
+names: ['ball']  # Klass nomi
+
+roboflow:
+  workspace: convenience-store-object-detection
+  project: basketball-training-59yvj-1em2j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/convenience-store-object-detection/basketball-training-59yvj-1em2j/dataset/1
